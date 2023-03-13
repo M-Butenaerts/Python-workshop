@@ -15,7 +15,7 @@ class Praesidium_lid(MD_lid):
         self.begin_jaar = begin_jaar
 
     def roep_silentium(self):
-        print("SILENTIUM!")
+        print(f"SILENTIUM! {self.naam}")
 
 # RUN
 
