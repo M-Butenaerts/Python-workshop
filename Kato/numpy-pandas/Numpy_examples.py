@@ -73,7 +73,7 @@ img = plt.imread('moeder delftsche.png')
 img_gray = 0.299*img[:,:,0]+0.587*img[:,:,1]+0.114*img[:,:,2] #0.299 * R' + 0.587 * G' + 0.114 * B'
 img_blue = img[:,:,2]
 
-# Select onbly the blue colors, So where B>0.5 and R,G<0.5
+# Select only the blue colors, So where B>0.5 and R,G<0.5
 img_lightblue = np.where((img[:,:,2]>0.3) &(img[:,:,0]<0.7) & (img[:,:,1]<0.7) ,0,1)
 #show the binary array
 plt.imshow(img_lightblue,cmap='gray')
