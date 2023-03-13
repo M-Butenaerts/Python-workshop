@@ -4,3 +4,5 @@ df = pd.read_excel(r'C:\Users\rune\OneDrive\Documents\GitHub\Python-workshop\Pyt
 
 df.dropna(inplace=True)
 print(df.info())
+
+#watafack
