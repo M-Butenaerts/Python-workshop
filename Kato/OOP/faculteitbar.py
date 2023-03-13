@@ -2,21 +2,24 @@
 # MAAK CLASS FACULTEITBAR
 class Faculteitbar:
 
-    def __init__(self):
-        pass
-        # NAAM
-        # FACULTEIT
-        # ASSORTIMENT (dictionary)
-        # CAPACITEIT
-        # HUIDIG AANTAL AANWEZIGEN
+    def __init__(self, naam, faculteit, capaciteit):
+        self.naam = naam
+        self.faculteit = faculteit
+        self.assortiment = {}           # ASSORTIMENT (dictionary)
+        self.capaciteit = capaciteit
+        self.huidig = 0    # HUIDIG AANTAL AANWEZIGEN
+
 
     def aanwezigheid_verhogen(self, aantal):
-        pass
+        self.huidig += aantal
 
     def aanwezigheid_verlagen(self, aantal):
-        pass
+        self.huidig -= aantal
 
     def bier_toevoegen(self, bier, prijs):
-        pass
+        self.assortiment[bier] = prijs
+
+
+
 
 
