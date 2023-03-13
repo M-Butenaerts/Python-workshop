@@ -1,6 +1,14 @@
+from faculteitbar import Faculteitbar
+from bier import Bier
 
 
-class MD_lid:
+# MAAK FACULTEITSBAR AAN
 
-    def __init__(self):
-        pass
+# MAAK BIER AAN
+
+# VOEG BIER TOE AAN HET ASSORTIMENT
+
+# VOEG 100 AANWEZIGEN TOE
+
+# VERLAAG HET AANTAL LEDEN MET 101
+
