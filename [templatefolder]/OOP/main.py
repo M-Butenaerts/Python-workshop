@@ -1,5 +1,5 @@
 from faculteitbar import Faculteitbar
-from bier import Bier
+from Bier import Bier
 
 
 # MAAK FACULTEITSBAR AAN
